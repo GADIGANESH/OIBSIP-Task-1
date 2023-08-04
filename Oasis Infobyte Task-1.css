@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:aqua;
+    margin: 0;
+}
+
+.cal {
+    width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color:whitesmoke;
+    border-color: red;
+}
+
+.dis {
+    text-align: right;
+    padding: 10px;
+}
+.gan{
+    color: red;
+    background-color:bisque;
+}
+.enter{
+    background-color: green;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+    color:white;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    background-color: black;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e2e2e2;
+}
